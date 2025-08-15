@@ -1,4 +1,5 @@
 # mcpmcp-server
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/glenngillen/mcpmcp-server)](https://archestra.ai/mcp-catalog/glenngillen__mcpmcp-server)
 
 Discover, setup, and integrate MCP servers with your favorite clients. Unlock the full potential of AI in your daily workflow.
 
