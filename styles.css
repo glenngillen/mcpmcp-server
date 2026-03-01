@@ -1,0 +1,133 @@
+:root {
+  --primary: #ff00cc;
+  --secondary: #3333ff;
+  --bg: #0f0f1a;
+  --text: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 3s ease, color 3s ease;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--primary);
+}
+
+nav a {
+  color: var(--text);
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero button {
+  padding: 12px 30px;
+  background: var(--primary);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.products {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  transition: 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px var(--primary);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: var(--secondary);
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.about, .contact {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.contact button {
+  padding: 12px 30px;
+  background: var(--primary);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Chatbot */
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 250px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 15px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.chat-header {
+  padding: 10px;
+  background: var(--primary);
+  text-align: center;
+}
+
+.chat-body {
+  height: 150px;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+.chatbot input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
