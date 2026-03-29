@@ -2,6 +2,10 @@
 
 Discover, setup, and integrate MCP servers with your favorite clients. Unlock the full potential of AI in your daily workflow.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/glenngillen-mcpmcp-server).
+
 ## Installation/usage:
 
 Update the configuration of your MCP client to the following: 
